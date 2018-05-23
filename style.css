@@ -1,3 +1,5 @@
+@import url("https://cdnjs.cloudflare.com/ajax/libs/IBM-type/0.5.4/css/ibm-type.min.css");
+
 
 body, table {
     padding:50px;
@@ -9,21 +11,26 @@ body, table {
     max-width: 1440px;
 }
 
+* {
+    font-family: "IBM Plex Mono", Monaco, Bitstream Vera Sans Mono, Lucida Console, Terminal, mono-space;
+}
+
+
 .keyword {
     color:black;
-    font-family:"IBM Plex Mono", Monaco, Bitstream Vera Sans Mono, Lucida Console, Terminal, mono-space;
+    
     font-size:12px;
 }
 
 .symbol {
-    font-family:"IBM Plex Mono", Monaco, Bitstream Vera Sans Mono, Lucida Console, Terminal, mono-space;
+    
     font-size:12px;
 }
 
 .identifier {
     color: darkblue;
     font-size:12px;
-    font-family:"IBM Plex Mono", Monaco, Bitstream Vera Sans Mono, Lucida Console, Terminal, mono-space;
+    
 }
 
 h1, h2, h3, h4, h5, h6 {
@@ -82,7 +89,7 @@ blockquote {
 }
 
 code, pre {
-    font-family:"IBM Plex Mono", Monaco, Bitstream Vera Sans Mono, Lucida Console, Terminal, mono-space;
+    
     color:#333;
     font-size:12px;
 }
