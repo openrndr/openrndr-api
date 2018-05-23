@@ -1,0 +1,12 @@
+$dokka.format:html
+$dokka.linkExtension:html
+
+org.openrndr.filter
+org.openrndr.filter.antialias
+org.openrndr.filter.blend
+org.openrndr.filter.blur
+org.openrndr.filter.color
+org.openrndr.filter.dither
+org.openrndr.filter.screenspace
+org.openrndr.filter.transforms
+org.openrndr.filter.unary

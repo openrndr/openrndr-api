@@ -1,0 +1,7 @@
+$dokka.format:html
+$dokka.linkExtension:html
+
+org.openrndr
+org.openrndr.draw
+org.openrndr.internal
+org.openrndr.text

@@ -1,0 +1,5 @@
+$dokka.format:html
+$dokka.linkExtension:html
+$dokka.location:org.openrndr.math$times(kotlin.Double, org.openrndr.math.Vector3)org.openrndr.math/kotlin.-double/times.html
+org.openrndr.math
+org.openrndr.math.transforms
