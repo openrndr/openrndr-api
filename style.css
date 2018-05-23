@@ -1,7 +1,7 @@
 
 body, table {
     padding:50px;
-    font:14px/1.5 "IBM Plex Mono", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font:14px/1.5 "IBM Plex Mono", Monaco, Bitstream Vera Sans Mono, Lucida Console, Terminal, mono-space;
     color:#555;
     font-weight:300;
     margin-left: auto;
@@ -11,19 +11,19 @@ body, table {
 
 .keyword {
     color:black;
-    font-family:Monaco, Bitstream Vera Sans Mono, Lucida Console, Terminal;
+    font-family:"IBM Plex Mono", Monaco, Bitstream Vera Sans Mono, Lucida Console, Terminal, mono-space;
     font-size:12px;
 }
 
 .symbol {
-    font-family:Monaco, Bitstream Vera Sans Mono, Lucida Console, Terminal;
+    font-family:"IBM Plex Mono", Monaco, Bitstream Vera Sans Mono, Lucida Console, Terminal, mono-space;
     font-size:12px;
 }
 
 .identifier {
     color: darkblue;
     font-size:12px;
-    font-family:Monaco, Bitstream Vera Sans Mono, Lucida Console, Terminal;
+    font-family:"IBM Plex Mono", Monaco, Bitstream Vera Sans Mono, Lucida Console, Terminal, mono-space;
 }
 
 h1, h2, h3, h4, h5, h6 {
@@ -82,7 +82,7 @@ blockquote {
 }
 
 code, pre {
-    font-family:Monaco, Bitstream Vera Sans Mono, Lucida Console, Terminal;
+    font-family:"IBM Plex Mono", Monaco, Bitstream Vera Sans Mono, Lucida Console, Terminal, mono-space;
     color:#333;
     font-size:12px;
 }
