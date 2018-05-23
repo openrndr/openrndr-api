@@ -2,7 +2,7 @@
 
 
 body, table {
-    padding:50px;
+    padding: 20px  50px 50px 50px;
     font:14px/1.5 "IBM Plex Mono", Monaco, Bitstream Vera Sans Mono, Lucida Console, Terminal, mono-space;
     color:#555;
     font-weight:300;
@@ -10,6 +10,20 @@ body, table {
     margin-right: auto;
     max-width: 1440px;
 }
+
+body:before {   
+  float: left;   
+  clear: both;   
+  font-size: 24px;   
+  font-size: 2.875rem;      
+  display: block;
+  width: 100%;
+  font-weight: 700;
+  color: black;
+  margin-bottom: 30px;
+  content: "OPENRNDR"; 
+} 
+
 
 * {
     font-family: "IBM Plex Mono", Monaco, Bitstream Vera Sans Mono, Lucida Console, Terminal, mono-space;
